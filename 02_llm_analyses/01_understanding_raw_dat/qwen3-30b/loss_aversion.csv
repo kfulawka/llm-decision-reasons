@@ -1,0 +1,101 @@
+problem_index,response
+0,"{
+  ""step_1"": ""The decision reason focuses on the outcomes of the lotteries, specifically the maximum loss in each. The maximum loss is the lowest monetary outcome in a lottery. For Lottery A, the outcomes are 2500, 2400, and 0, so the maximum loss is 0 Euros. For Lottery B, the outcome is 2400 Euros with 100% probability, so the maximum loss is 2400 Euros. The reason considers losses more important than gains and prefers the lottery with the more favorable (i.e., less severe) maximum loss. The relevant information (maximum loss) can be derived from the lotteries' outcomes, so the decision reason can be applied strictly. The maximum loss in Lottery A is 0 Euros, which is more favorable than the maximum loss of 2400 Euros in Lottery B."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable maximum loss. Since 0 Euros (Lottery A) is a more favorable maximum loss than 2400 Euros (Lottery B), the reason prefers Lottery A."",
+  ""final_answer"": ""A""
+}"
+1,"{
+  ""step_1"": ""The decision reason focuses on the outcomes of the lotteries, specifically the maximum loss. In both lotteries, the outcome of 0 Euros represents a loss (since it is less than the positive outcomes). The maximum loss in both lotteries is 0 Euros, as this is the worst possible outcome in each. Since the maximum loss is identical in both lotteries (0 Euros), the relevant information for the decision reason cannot distinguish between them. Therefore, the decision reason is indifferent between the lotteries."",
+  ""step_2"": ""Since the maximum loss is the same (0 Euros) in both Lottery A and Lottery B, and the decision reason only considers the maximum loss (with losses being more important than gains), there is no basis to prefer one lottery over the other. The decision reason is indifferent between the two lotteries."",
+  ""final_answer"": ""INDIFFERENT""
+}"
+2,"{
+  ""step_1"": ""The decision reason focuses on the outcomes of the lotteries, specifically the maximum loss in each. For Lottery A, the outcomes are 4000 Euros (80%) and 0 Euros (20%), so the maximum loss is 0 Euros (since 0 is the lowest outcome, and no loss occurs in this case). For Lottery B, the outcome is 3000 Euros with 100% probability, so the maximum loss is also 0 Euros (no possibility of losing money). Thus, both lotteries have the same maximum loss of 0 Euros. The relevant information can be derived, and the decision reason can be applied. However, since the maximum losses are equal, the reason cannot prefer one over the other based on this criterion."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable maximum loss. Since both lotteries have a maximum loss of 0 Euros, they are equally favorable in terms of maximum loss. Therefore, the decision reason is indifferent between the two lotteries."",
+  ""final_answer"": ""INDIFFERENT""
+}"
+3,"{
+  ""step_1"": ""The decision reason focuses on the outcomes of the lotteries, specifically the maximum loss in each. In both lotteries, the outcome of 0 Euros represents a loss (since no gain is realized). The maximum loss in Lottery A is 0 Euros (occurs with 80% probability), and in Lottery B it is also 0 Euros (occurs with 75% probability). Since both lotteries have the same maximum loss (0 Euros), the relevant information for the decision reason is identical. Therefore, the decision reason cannot distinguish between the lotteries based on the maximum loss. However, the reason specifies that losses are more important than gains, and it prefers the lottery with the more favorable maximum loss. Since both have the same maximum loss (0 Euros), the reason is indifferent between the two lotteries."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable maximum loss. Since both lotteries have a maximum loss of 0 Euros, the maximum losses are equal. Therefore, the decision reason is indifferent between Lottery A and Lottery B."",
+  ""final_answer"": ""INDIFFERENT""
+}"
+4,"{
+  ""step_1"": ""The decision reason focuses on the maximum loss in each lottery. In both lotteries, the outcome of 0 Euros represents a loss (since it is less than the positive outcomes). The maximum loss in Lottery A is 0 Euros (which occurs with 55% probability), and the maximum loss in Lottery B is also 0 Euros (which occurs with 10% probability). Since both lotteries have the same maximum loss (0 Euros), the relevant information for the decision reason is identical. Therefore, the decision reason cannot distinguish between the lotteries based on the maximum loss. As a result, the reason is indifferent between the two lotteries."",
+  ""step_2"": ""Since the maximum loss is the same (0 Euros) in both lotteries, and the decision reason only considers the maximum loss (with losses being more important than gains), the reason cannot prefer one lottery over the other. Hence, the decision reason is indifferent between Lottery A and Lottery B."",
+  ""final_answer"": ""INDIFFERENT""
+}"
+5,"{
+  ""step_1"": ""The decision reason focuses on the outcomes of the lotteries, specifically the maximum loss in each. Both lotteries have a maximum loss of 0 Euros (since the worst outcome in both cases is 0 Euros). Therefore, the relevant information—maximum loss—is identical for both lotteries. Since the maximum loss is the same, the decision reason cannot distinguish between the lotteries based on this criterion."",
+  ""step_2"": ""Since the decision reason evaluates the lotteries based on the maximum loss and both lotteries have the same maximum loss (0 Euros), the reason is indifferent between them."",
+  ""final_answer"": ""INDIFFERENT""
+}"
+6,"{
+  ""step_1"": ""The decision reason focuses on the maximum loss in each lottery, comparing them to determine preference. For Lottery A, the maximum loss is -4000 Euros (occurring with 80% probability). For Lottery B, the maximum loss is -3000 Euros (occurring with 100% probability). Since both lotteries involve only losses (no gains), the maximum loss is the most severe outcome in each. The relevant information—maximum loss—is clearly derivable from the lotteries' outcomes and probabilities. Therefore, the decision reason can be applied strictly."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable (i.e., less severe) maximum loss. Comparing the maximum losses: -3000 Euros (Lottery B) is more favorable than -4000 Euros (Lottery A). Therefore, the reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+7,"{
+  ""step_1"": ""The decision reason focuses on the maximum loss in each lottery, comparing them to determine preference. From Lottery A: the maximum loss is -4000 Euros. From Lottery B: the maximum loss is -3000 Euros. Since -3000 is greater than -4000 (i.e., less negative), Lottery B has a more favorable (less severe) maximum loss. This information is fully derivable from the given lotteries, so the decision reason can be applied strictly."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable maximum loss. Since -3000 > -4000, Lottery B has a more favorable maximum loss. Therefore, the decision reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+8,"{
+  ""step_1"": ""The decision reason focuses on the maximum loss in each lottery, as losses are considered more important than gains. From Lottery A, the maximum loss is -6000 Euros. From Lottery B, the maximum loss is -3000 Euros. Since -3000 is greater (less negative) than -6000, the maximum loss in Lottery B is more favorable. This information is directly derivable from the given outcomes and probabilities, so the decision reason can be applied strictly."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable (i.e., less severe) maximum loss. Since -3000 Euros (Lottery B) is more favorable than -6000 Euros (Lottery A), the reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+9,"{
+  ""step_1"": ""The decision reason focuses on the maximum loss in each lottery, comparing them to determine preference. From Lottery A: the maximum loss is -6000 Euros (with 0.1% probability). From Lottery B: the maximum loss is -3000 Euros (with 0.2% probability). The maximum loss is a clear, observable feature of each lottery, and the reason explicitly compares these values. Therefore, the relevant information can be derived, and the decision reason can be applied strictly. The more favorable (i.e., less severe) maximum loss is -3000 Euros, which occurs in Lottery B."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable (i.e., less negative) maximum loss. Since -3000 Euros is more favorable than -6000 Euros, the reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+10,"{
+  ""step_1"": ""The decision reason focuses on the outcomes of the lotteries, specifically the maximum loss in each. For Lottery A, the outcomes are 1000 Euros (gain) with 50% probability and 0 Euros (loss) with 50% probability. The maximum loss is 0 Euros (since 0 is not a loss in this context—no money is lost). For Lottery B, the outcome is 500 Euros with 100% probability, which is a gain with no possibility of loss. Therefore, the maximum loss in Lottery B is also 0 Euros. Since both lotteries have the same maximum loss (0 Euros), the relevant information for the decision reason is identical. However, the reason states that losses are more important than gains, but since both lotteries have no actual loss (minimum outcome is 0 or 500), the maximum loss is the same. Thus, the decision reason cannot distinguish between the lotteries based on maximum loss. The decision reason is indifferent between the lotteries."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable maximum loss. Since both lotteries have a maximum loss of 0 Euros, the maximum loss is equally favorable. Therefore, the decision reason is indifferent between Lottery A and Lottery B."",
+  ""final_answer"": ""INDIFFERENT""
+}"
+11,"{
+  ""step_1"": ""The decision reason focuses on the outcomes of the lotteries, specifically the maximum loss in each. For Lottery A, the outcomes are -1000 Euros (50%) and 0 Euros (50%), so the maximum loss is -1000 Euros. For Lottery B, the outcome is -500 Euros with 100% probability, so the maximum loss is -500 Euros. The reason prefers the lottery with the more favorable (i.e., less severe) maximum loss. The relevant information (maximum loss) can be derived from the lotteries, so the decision reason can be applied strictly."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable maximum loss. Between -1000 Euros (Lottery A) and -500 Euros (Lottery B), -500 Euros is more favorable. Therefore, the reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+12,"{
+  ""step_1"": ""The decision reason focuses on the outcomes of the lotteries, specifically the maximum loss in each. In both lotteries, the lowest outcome (i.e., the worst-case scenario) is 0 Euros, which is not a loss but a neutral outcome. Since there are no negative outcomes (i.e., no actual losses), the maximum loss in both lotteries is 0 Euros. Therefore, the relevant information (maximum loss) can be derived and is identical for both lotteries. As a result, the decision reason cannot distinguish between the lotteries based on the maximum loss, and thus is indifferent between them."",
+  ""step_2"": ""Since both lotteries have the same maximum loss (0 Euros), the decision reason, which prefers the lottery with the more favorable maximum loss, finds no difference between the two. Hence, the reason is indifferent between lottery A and lottery B."",
+  ""final_answer"": ""INDIFFERENT""
+}"
+13,"{
+  ""step_1"": ""The decision reason focuses on the maximum loss in each lottery, as losses are considered more important than gains. For Lottery A, the outcomes are -6000 Euros (25%) and 0 Euros (75%), so the maximum loss is -6000 Euros. For Lottery B, the outcomes are -4000 Euros (25%), -2000 Euros (25%), and 0 Euros (50%), so the maximum loss is -4000 Euros. The relevant information—namely, the maximum loss in each lottery—can be derived from the given outcomes and probabilities. Therefore, the decision reason can be applied in a strict manner."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable (i.e., less severe) maximum loss. Comparing the maximum losses: Lottery A has a maximum loss of -6000 Euros, while Lottery B has a maximum loss of -4000 Euros. Since -4000 Euros is more favorable (less negative) than -6000 Euros, the decision reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+14,"{
+  ""step_1"": ""The decision reason focuses on the maximum loss in each lottery. In Lottery A, the outcomes are 5000 Euros (with 0.1% probability) and 0 Euros (with 99.9% probability). The worst-case outcome (maximum loss) is 0 Euros. In Lottery B, the outcome is 5 Euros with 100% probability, so the worst-case outcome is also 5 Euros. Since both lotteries have a non-negative outcome (no actual loss), the maximum loss is 0 Euros in Lottery A and 5 Euros in Lottery B. However, the decision reason states that losses are considered more important than gains, and it prefers the lottery with the more favorable maximum loss. A more favorable maximum loss means a smaller (less negative) or higher (less loss) worst-case outcome. Since 0 Euros is better (less loss) than 5 Euros in terms of maximum loss, Lottery A has a more favorable maximum loss. The relevant information (maximum loss) can be derived from the lotteries, so the decision reason can be applied strictly."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable maximum loss. Lottery A has a maximum loss of 0 Euros, while Lottery B has a maximum loss of 5 Euros. Since 0 Euros is more favorable (less loss) than 5 Euros, the decision reason prefers Lottery A."",
+  ""final_answer"": ""A""
+}"
+15,"{
+  ""step_1"": ""The decision reason focuses on the maximum loss in each lottery, comparing them to determine preference. For Lottery A, the maximum loss is -5000 Euros (occurring with 0.1% probability). For Lottery B, the maximum loss is -5 Euros (occurring with 100% probability). These maximum losses are clearly defined and can be directly compared. Therefore, the decision reason can be applied in a strict manner. The relevant information is: Lottery A has a maximum loss of -5000 Euros; Lottery B has a maximum loss of -5 Euros."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable (i.e., less severe) maximum loss. Since -5 Euros is more favorable than -5000 Euros, the reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+16,"{
+  ""step_1"": ""The decision reason focuses on the outcomes of the lotteries, specifically the maximum loss in each. For Lottery A, the outcomes are 3000 Euros (gain) with 50% probability and -3000 Euros (loss) with 50% probability, so the maximum loss is -3000 Euros. For Lottery B, the outcome is 1500 Euros with 100% probability, so there is no loss; the maximum loss is 0 Euros. The relevant information—maximum loss—is clearly derivable from the lotteries. Therefore, the decision reason can be applied strictly. The maximum loss in Lottery A is -3000 Euros, and in Lottery B it is 0 Euros. Since losses are considered more important than gains, a more favorable (i.e., less severe) maximum loss is preferred."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable (i.e., less negative) maximum loss. Lottery A has a maximum loss of -3000 Euros, while Lottery B has a maximum loss of 0 Euros. Since 0 Euros is more favorable than -3000 Euros, the decision reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+17,"{
+  ""step_1"": ""The decision reason focuses on the outcomes of the lotteries, specifically the maximum loss in each. For Lottery A, the outcomes are +3000 Euros (50%) and -3000 Euros (50%), so the maximum loss is -3000 Euros. For Lottery B, the outcome is +2000 Euros with 100% probability, so there is no loss; the maximum loss is 0 Euros. Since the maximum loss can be determined for both lotteries, the decision reason can be applied strictly. The relevant information is: Lottery A has a maximum loss of -3000 Euros, and Lottery B has a maximum loss of 0 Euros."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable (i.e., less severe) maximum loss. Since -3000 Euros is a worse (more unfavorable) loss than 0 Euros, Lottery B has the more favorable maximum loss. Therefore, the decision reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+18,"{
+  ""step_1"": ""The decision reason focuses on the maximum loss in each lottery. From Lottery A, the outcomes are 3000 Euros (gain) with 50% probability and -3000 Euros (loss) with 50% probability. Thus, the maximum loss in Lottery A is -3000 Euros. From Lottery B, the outcome is 1000 Euros with 100% probability, so there is no loss; the maximum loss is 0 Euros. The relevant information—maximum loss—is clearly derivable from the lotteries. Therefore, the decision reason can be applied strictly."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable (i.e., less severe) maximum loss. Lottery A has a maximum loss of -3000 Euros, while Lottery B has a maximum loss of 0 Euros. Since 0 Euros is more favorable than -3000 Euros, the reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+19,"{
+  ""step_1"": ""The decision reason focuses on the maximum loss in each lottery and prefers the lottery with the more favorable (i.e., less severe) maximum loss. From Lottery A, the outcomes are +6000 Euros (50%) and -6000 Euros (50%), so the maximum loss is -6000 Euros. From Lottery B, the outcome is 0 Euros with 100% probability, so the maximum loss is 0 Euros. Since both maximum losses can be clearly identified and compared, the decision reason can be applied strictly. The relevant information is: Lottery A has a maximum loss of -6000 Euros; Lottery B has a maximum loss of 0 Euros."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable (i.e., less negative) maximum loss. Since 0 Euros (Lottery B) is more favorable than -6000 Euros (Lottery A), the reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"

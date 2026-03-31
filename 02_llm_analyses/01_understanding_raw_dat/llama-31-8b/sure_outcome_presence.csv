@@ -1,0 +1,101 @@
+problem_index,response
+0,"{
+  ""step_1"": ""The decision reason can be applied to the decision problem in a strict manner. The relevant information is the presence of a sure outcome in each lottery. Lottery A has a 100% chance of 0 Euros and a 1% chance of 0 Euros and 66% chance of 2400 Euros, but the 1% chance of 0 Euros and 66% chance of 2400 Euros is irrelevant to the decision reason. Lottery B has a 100% chance of 2400 Euros. The decision reason can strictly follow its rule by comparing the presence of a sure outcome in each lottery."",
+  ""step_2"": ""The decision reason prefers the lottery with a sure outcome. Lottery A has a sure outcome of 0 Euros and Lottery B has a sure outcome of 2400 Euros. Since 2400 Euros is greater than 0 Euros, the decision reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+1,"{
+  ""step_1"": ""The decision reason can be applied to the decision problem in a strict manner. The relevant information about the lotteries is that lottery A has a 33% chance of winning 2500 Euros and a 67% chance of winning 0 Euros, and lottery B has a 34% chance of winning 2400 Euros and a 66% chance of winning 0 Euros."",
+  ""step_2"": ""According to the decision reason, it prefers the lottery with a sure outcome. Lottery A has a 67% chance of winning 0 Euros, but there is no sure outcome in lottery A. Lottery B has a 66% chance of winning 0 Euros, but there is no sure outcome in lottery B. However, there is no lottery with a sure outcome in this decision problem, so the decision reason is indifferent between the lotteries."",
+  ""final_answer"": ""INDIFFERENT""
+}"
+2,"{
+  ""step_1"": ""The decision reason can be applied to the decision problem in a strict manner because we can derive the relevant information about the presence of a sure outcome from the lotteries' outcomes and probabilities."",
+  ""step_2"": ""Lottery A does not have a sure outcome, but Lottery B has a sure outcome of 3000 Euros. Therefore, the decision reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+3,"{
+  ""step_1"": ""The decision reason can be applied to the decision problem in a strict manner. The relevant information is that Lottery A has a 20% chance of 4000 Euros and a 80% chance of 0 Euros, while Lottery B has a 25% chance of 3000 Euros and a 75% chance of 0 Euros. Both lotteries have a sure outcome (0 Euros). However, Lottery A has a higher value of the sure outcome (4000 Euros) than Lottery B (3000 Euros)."",
+  ""step_2"": ""The decision reason prefers the lottery with a sure outcome. Since Lottery A has a higher value of the sure outcome (4000 Euros) than Lottery B (3000 Euros), the decision reason prefers Lottery A."",
+  ""final_answer"": ""A""
+}"
+4,"{
+  ""step_1"": ""The decision reason can be applied to the decision problem in a strict manner. The relevant information about the lotteries' outcomes and probabilities is: Lottery A has a 45% chance of 6000 Euros and a 55% chance of 0 Euros. Lottery B has a 90% chance of 3000 Euros and a 10% chance of 0 Euros. The decision reason considers the presence of a sure outcome in each lottery, so the relevant information is that Lottery A has no sure outcome, but Lottery B has a 10% chance of a sure outcome of 0 Euros, which is still a sure outcome, and a 90% chance of 3000 Euros."",
+  ""step_2"": ""However, the decision reason prefers the lottery with a sure outcome, but in this case, both lotteries have a sure outcome of 0 Euros. Therefore, the decision reason is indifferent between the lotteries."",
+  ""final_answer"": ""INDIFFERENT""
+}"
+5,"{
+  ""step_1"": ""The decision reason can be applied to the decision problem in a strict manner. The relevant information about the lotteries is that Lottery A has a 0.1% probability of 6000 Euros and a 99.9% probability of 0 Euros, while Lottery B has a 0.2% probability of 3000 Euros and a 99.8% probability of 0 Euros. The decision reason is looking for a sure outcome, which can be derived from the lotteries' outcomes and probabilities."",
+  ""step_2"": ""Applying the decision reason to the decision problem, we find that Lottery A does not have a sure outcome, but Lottery B does not have a sure outcome either. However, upon closer inspection, we can see that Lottery A has a 99.9% chance of 0 Euros, but it is not a sure outcome. Lottery B does not have a 100% chance of 0 Euros. Therefore, the decision reason prefers Lottery A."",
+  ""final_answer"": ""A""
+}"
+6,"{
+  ""step_1"": ""The decision reason can be applied to the decision problem in a strict manner. The relevant information can be derived from the lotteries' outcomes and probabilities. Lottery A has a 80% chance of 4000 Euros and a 20% chance of 0 Euros. Lottery B has a 100% chance of -3000 Euros. The presence of a sure outcome can be determined from these probabilities."",
+  ""step_2"": ""The decision reason prefers the lottery with a sure outcome. Lottery A has a 20% chance of a 0 Euro outcome, but it does not have a sure outcome. Lottery B has a 100% chance of a -3000 Euro outcome, which is a sure outcome. However, the decision reason prefers the lottery with a sure outcome, so it should prefer the lottery with the higher sure outcome. Since Lottery A has a higher sure outcome (4000 Euros) than Lottery B (-3000 Euros), the decision reason prefers Lottery A."",
+  ""final_answer"": ""A""
+}"
+7,"{
+  ""step_1"": ""The decision reason can be applied to the decision problem in a strict manner. The relevant information is the presence of a sure outcome in each lottery. Lottery A has a 20% chance of 4000 Euros, which is not a sure outcome. Lottery B has a 75% chance of 0 Euros, which is a sure outcome of 0 Euros, but not a sure outcome of a positive amount. However, Lottery A does not have a sure outcome of a positive amount, but Lottery B does not have a sure outcome of a positive amount either. Lottery A has a 20% chance of 4000 Euros and a 80% chance of 0 Euros, and Lottery B has a 25% chance of -3000 Euros and a 75% chance of 0 Euros. The relevant information is the presence of a sure outcome of 0 Euros in both lotteries."",
+  ""step_2"": ""The decision reason prefers the lottery with a sure outcome. Since both lotteries have a sure outcome of 0 Euros, the decision reason is indifferent between the lotteries."",
+  ""final_answer"": ""INDIFFERENT""
+}"
+8,"{
+  ""step_1"": ""The decision reason can be applied to the decision problem in a strict manner because we can derive the relevant information about the presence of a sure outcome in each lottery from the lotteries' outcomes and probabilities. Lottery A has a 55% probability of 0 Euros, which is a sure outcome of 0 Euros. Lottery B has a 10% probability of 0 Euros, which is not a sure outcome. However, Lottery B has a 90% probability of -3000 Euros, but this is not a sure outcome of 0 Euros. Therefore, Lottery A has a sure outcome of 0 Euros."",
+  ""step_2"": ""The decision reason prefers the lottery with a sure outcome. Lottery A has a sure outcome of 0 Euros, so the decision reason prefers Lottery A."",
+  ""final_answer"": ""A""
+}"
+9,"{
+  ""step_1"": ""The decision reason can be applied to the decision problem in a strict manner because we can derive the relevant information from the lotteries' outcomes and probabilities. Lottery A has a 0.1% chance of a -6000 Euros outcome and a 99.9% chance of a 0 Euros outcome. Lottery B has a 0.2% chance of a -3000 Euros outcome and a 99.8% chance of a 0 Euros outcome. The relevant information for the decision reason is the presence of a sure outcome in each lottery."",
+  ""step_2"": ""The decision reason prefers the lottery with a sure outcome. Lottery A has a 99.9% chance of a 0 Euros outcome, which is a sure outcome, and Lottery B has a 99.8% chance of a 0 Euros outcome, which is also a sure outcome. However, Lottery A has a higher probability of the sure outcome (99.9%) compared to Lottery B (99.8%). Therefore, the decision reason prefers Lottery A."",
+  ""final_answer"": ""A""
+}"
+10,"{
+  ""step_1"": ""The decision reason can be applied to the decision problem in a strict manner. Lottery A has a 50% chance of 1000 Euros and a 50% chance of 0 Euros, while Lottery B has a 100% chance of 500 Euros. The decision reason is based on the presence of a sure outcome, which can be derived from the lotteries' outcomes and probabilities."",
+  ""step_2"": ""The decision reason prefers the lottery with a sure outcome. Lottery B has a sure outcome of 500 Euros, so the decision reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+11,"{
+  ""step_1"": ""The decision reason can be applied to the decision problem in a strict manner. Lottery A has a sure outcome of -1000 Euros, and lottery B has a sure outcome of -500 Euros. The relevant information is that both lotteries have a sure outcome."",
+  ""step_2"": ""The decision reason prefers the lottery with a sure outcome. Lottery A has a sure outcome of -1000 Euros, which is a higher amount than the sure outcome of -500 Euros in lottery B. Therefore, the decision reason prefers lottery A."",
+  ""final_answer"": ""A""
+}"
+12,"{
+  ""step_1"": ""The decision reason can be applied to the decision problem in a strict manner. Lottery A has a sure outcome of 0 Euros, and lottery B has a sure outcome of 0 Euros. However, lottery B has a higher probability of the 0 Euros outcome (50%) compared to lottery A (75%). Therefore, lottery A has a higher probability of the sure outcome of 0 Euros compared to lottery B, but the presence of a sure outcome of 0 Euros in both lotteries means that both lotteries have a sure outcome."",
+  ""step_2"": ""The decision reason prefers the lottery with a sure outcome. Since both lotteries have a sure outcome, the decision reason is indifferent between the lotteries."",
+  ""final_answer"": ""INDIFFERENT""
+}"
+13,"{
+  ""step_1"": ""The decision reason can be applied to the decision problem in a strict manner because the relevant information about the presence of a sure outcome can be derived from the lotteries' outcomes and probabilities."",
+  ""step_2"": ""Lottery A has a 25% probability of -6000 Euros and a 75% probability of 0 Euros, so it does not have a sure outcome. Lottery B has a 50% probability of 0 Euros, which is a sure outcome. Therefore, the decision reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+14,"{
+  ""step_1"": ""The decision reason considers the presence of a sure outcome in each lottery. The relevant information can be derived from the lotteries' outcomes and probabilities. Lottery A has a 0.1% chance of winning 5000 Euros and a 99.9% chance of winning 0 Euros. Lottery B has a 100% chance of winning 5 Euros. Therefore, the decision reason can be applied to the decision problem in a strict manner."",
+  ""step_2"": ""Applying the decision reason to the decision problem, we see that Lottery A does not have a sure outcome, but Lottery B has a sure outcome of winning 5 Euros. Therefore, the decision reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+15,"{
+  ""step_1"": ""The decision reason considers the presence of a sure outcome in each lottery. Since Lottery A has a 99.9% chance of 0 Euros and Lottery B has a 100% chance of -5 Euros, there is no sure outcome in either lottery. However, Lottery A has a 0.1% chance of 5000 Euros, which is the highest positive outcome."",
+  ""step_2"": ""Since the decision reason prefers the lottery with a sure outcome and neither lottery has a sure outcome, it must prefer the lottery with the highest positive outcome. Therefore, the decision reason prefers Lottery A."",
+  ""final_answer"": ""A""
+}"
+16,"{
+  ""step_1"": ""The decision reason can be applied to the decision problem in a strict manner because the presence of a sure outcome can be derived from the lotteries' outcomes and probabilities. Lottery A has a 50% chance of 3000 Euros, which is not a sure outcome, and a 50% chance of -3000 Euros, which is not a sure outcome either. Lottery B has a 100% chance of 1500 Euros, which is a sure outcome. The relevant information is that Lottery B has a sure outcome."",
+  ""step_2"": ""The decision reason prefers the lottery with a sure outcome, which is Lottery B."",
+  ""final_answer"": ""B""
+}"
+17,"{
+  ""step_1"": ""The decision reason can be applied to the decision problem in a strict manner. Lottery A has a sure outcome of -3000 Euros, and Lottery B has a sure outcome of 2000 Euros. The decision reason can compare these outcomes directly."",
+  ""step_2"": ""The decision reason prefers the lottery with a sure outcome. Since Lottery B has a sure outcome of 2000 Euros, which is greater than the sure outcome of -3000 Euros in Lottery A, the decision reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+18,"{
+  ""step_1"": ""The decision reason can be applied to the decision problem in a strict manner because the presence of a sure outcome can be derived from the lotteries' outcomes and probabilities. Lottery A has a sure outcome of -3000 Euros, and Lottery B has a sure outcome of 1000 Euros."",
+  ""step_2"": ""Applying the decision reason to the decision problem, the reason prefers the lottery with a sure outcome. Since Lottery B has a sure outcome of 1000 Euros, which is greater than the sure outcome of -3000 Euros in Lottery A, the decision reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+19,"{
+  ""step_1"": ""The decision reason can be applied to the decision problem in a strict manner. Lottery A has a sure outcome of 6000 Euros, and Lottery B has a sure outcome of 0 Euros. The relevant information is that Lottery A has a higher sure outcome than Lottery B."",
+  ""step_2"": ""The decision reason prefers the lottery with a sure outcome. Since Lottery A has a higher sure outcome than Lottery B, the decision reason prefers Lottery A."",
+  ""final_answer"": ""A""
+}"

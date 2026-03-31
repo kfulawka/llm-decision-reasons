@@ -1,0 +1,429 @@
+small probability overweighting
+"STEPS: 
+1. Assess the relevant information from the lotteries:
+   - Lottery A offers:
+     - 2500 Euros with a probability of 33%
+     - 2400 Euros with a probability of 66%
+     - 0 Euros with a probability of 1%
+   - Lottery B offers:
+     - 2400 Euros with a probability of 100%
+   
+   The decision reason specifically addresses outcomes that have a probability of less than 20%. In Lottery A, the outcome of 0 Euros has a probability of 1%, which falls within this range. Therefore, we will increase its weight by 10 percentage points, making its effective weight 11% (1% original + 10% increase).
+
+2. Apply the decision reason:
+   - For Lottery A:
+     - 2500 Euros at 33%: contributes 2500 * 0.33 = 825 Euros
+     - 2400 Euros at 66%: contributes 2400 * 0.66 = 1584 Euros
+     - 0 Euros at 1% (with increased weight): contributes 0 * 0.11 = 0 Euros
+     - Total weighted sum for Lottery A = 825 + 1584 + 0 = 2409 Euros
+
+   - For Lottery B:
+     - 2400 Euros at 100%: contributes 2400 * 1 = 2400 Euros
+     - Total weighted sum for Lottery B = 2400 Euros
+
+   Comparing the total weighted outcomes:
+   - Lottery A: 2409 Euros 
+   - Lottery B: 2400 Euros 
+
+   Since 2409 Euros (Lottery A) is greater than 2400 Euros (Lottery B), the decision reason prefers Lottery A.
+
+FINAL ANSWER: A"
+"STEPS: 
+1. Assess the decision reason against the available lotteries. The decision reason focuses on the small probability outcomes (those with less than 20% probability) and adjusts their weights. In this case, both lotteries A and B have outcomes with a probability of 0% (i.e., the 0 Euros outcome) and do not have any outcomes with a probability below 20%. Thus, the criteria established by the decision reason regarding the small probability outcomes cannot be applied strictly since there are no applicable outcomes. Therefore, I conclude that the decision reason has no basis to prefer one lottery over the other, leading to indifference based purely on the lottery structures provided.
+
+FINAL ANSWER: INDIFFERENT"
+"STEPS: 
+1. **Assess Relevant Information**: 
+   - For Lottery A: 
+     - Outcome of 4000 Euros with a probability of 80%: 4000 * 0.80 = 3200
+     - Outcome of 0 Euros with a probability of 20%: 0 * (0.20 + 0.10) = 0 * 0.30 = 0 
+   - For Lottery B:
+     - Outcome of 3000 Euros with a probability of 100%: 3000 * 1.00 = 3000
+   - Summarizing the relevant information, we see:
+     - Lottery A has a weighted outcome of 3200 Euros.
+     - Lottery B has a weighted outcome of 3000 Euros.
+   - Since we can derive the necessary information from the lotteries, proceed to Step 2.
+
+2. **Apply Decision Reason**: 
+   - Comparing the weighted outcomes:
+     - Lottery A is weighted to 3200 Euros.
+     - Lottery B is weighted to 3000 Euros.
+   - Since 3200 > 3000, the reasoning indicates that Lottery A is preferred based on the rule.
+
+FINAL ANSWER: A"
+"STEPS: 
+Step 1: Assess the lotteries.
+- For Lottery A:
+  - 4000 Euros with 20% probability
+  - 0 Euros with 80% probability
+  - The small probability outcome (0 Euros) is 80%, which is greater than 20%. Therefore, this outcome's weight increases from 80% to 90% (80% + 10%).
+  - The weighted outcomes for Lottery A: 
+    - \( (4000 \times 0.20) + (0 \times 0.90) = 800 + 0 = 800 \) Euros.
+
+- For Lottery B:
+  - 3000 Euros with 25% probability
+  - 0 Euros with 75% probability
+  - The small probability outcome (0 Euros) is 75%, which is also greater than 20%. Therefore, this outcome's weight increases from 75% to 85% (75% + 10%).
+  - The weighted outcomes for Lottery B: 
+    - \( (3000 \times 0.25) + (0 \times 0.85) = 750 + 0 = 750 \) Euros.
+
+Step 2: Apply the decision reason.
+- Weighted outcome for Lottery A: 800 Euros
+- Weighted outcome for Lottery B: 750 Euros
+- The decision reason prefers the lottery with the more favorable sum of outcomes. Since 800 Euros (Lottery A) is greater than 750 Euros (Lottery B), the decision reason prefers Lottery A.
+
+FINAL ANSWER: A"
+"STEPS: 
+1. In lottery A, we have:
+   - 6000 Euros with a probability of 45%
+   - 0 Euros with a probability of 55% (this outcome's probability is greater than 20%, so it remains unchanged).
+   
+   We calculate the weighted outcome for lottery A:
+   - The weighted probability of 6000 Euros remains 45% (0.45 * 6000 = 2700 Euros).
+   - The weighted probability of 0 Euros is 55% (0.55 * 0 = 0 Euros).
+   - Total expected value for A: 2700 + 0 = 2700 Euros.
+
+2. In lottery B, we have:
+   - 3000 Euros with a probability of 90% (this outcome's probability is greater than 20%, so it remains unchanged).
+   - 0 Euros with a probability of 10% (this outcome's probability is less than 20%, so we add 10 to the probability: 20%).
+   
+   We calculate the weighted outcome for lottery B:
+   - The weighted probability of 3000 Euros remains 90% (0.90 * 3000 = 2700 Euros).
+   - The weighted probability of 0 Euros changes to 20% (0.20 * 0 = 0 Euros).
+   - Total expected value for B: 2700 + 0 = 2700 Euros.
+
+3. Now we compare the total expected values:
+   - Total expected value for A: 2700 Euros.
+   - Total expected value for B: 2700 Euros.
+
+Since the expected values of both lotteries A and B are equal, the decision reason is indifferent between the two lotteries.
+
+FINAL ANSWER: INDIFFERENT"
+"STEPS: 
+1. First, I will assess the relevant information from both lotteries:
+   - Lottery A offers 6000 Euros with a probability of 0.1% and 0 Euros with a probability of 99.9%.
+   - Lottery B offers 3000 Euros with a probability of 0.2% and 0 Euros with a probability of 99.8%.
+
+2. Next, I will apply the decision reason. According to the decision reason, outcomes with a probability of less than 20% receive an increased weight of 10 percentage points. 
+   - For Lottery A:
+     - The probability of winning 6000 Euros will be adjusted from 0.1% to 0.1% + 10% = 10.1%.
+     - The probability of winning 0 Euros (99.9%) remains the same as it exceeds 20%.
+     - The expected value of Lottery A is (6000 Euros * 10.1%) + (0 Euros * 99.9%) = 606 Euros.
+
+   - For Lottery B:
+     - The probability of winning 3000 Euros will be adjusted from 0.2% to 0.2% + 10% = 10.2%.
+     - The probability of winning 0 Euros (99.8%) remains the same.
+     - The expected value of Lottery B is (3000 Euros * 10.2%) + (0 Euros * 99.8%) = 306 Euros.
+
+3. Now I will compare the expected values:
+   - Expected value of Lottery A: 606 Euros
+   - Expected value of Lottery B: 306 Euros
+
+4. Since the expected value of Lottery A (606 Euros) is greater than that of Lottery B (306 Euros), the decision reason prefers Lottery A.
+
+FINAL ANSWER: A"
+"STEPS: 
+Step 1: Let's summarize the relevant information about the lotteries’ outcomes and probabilities regarding the decision reason. We have:
+- Lottery A outcomes: 
+  - -4000 Euros with 80% probability 
+  - 0 Euros with 20% probability 
+- Lottery B outcome: 
+  - -3000 Euros with 100% probability 
+
+Now we evaluate the probabilities:
+- For Lottery A, the outcome of 0 Euros has a probability of 20%, which is equal to the threshold of 20%. Therefore, it does not receive an increased weight because it does not fall below 20%.
+- For Lottery B, the outcome of -3000 Euros has a probability of 100%, which also does not fall below the threshold.
+
+Since all probabilities in both lotteries that are being evaluated do not allow the weight to increase (neither has less than 20%), we will not adjust the probabilities.
+
+Step 2: Now, apply the decision reason's rule of evaluating the sum of outcomes weighted by their probabilities:
+- Lottery A:
+  - Expected Value = (-4000 Euros * 0.8) + (0 Euros * 0.2) = -3200 Euros + 0 Euros = -3200 Euros
+- Lottery B:
+  - Expected Value = -3000 Euros * 1.0 = -3000 Euros
+
+Now we compare the expected values:
+- Lottery A: -3200 Euros
+- Lottery B: -3000 Euros
+
+Since -3000 Euros (Lottery B) is more favorable than -3200 Euros (Lottery A), the decision reason prefers Lottery B.
+
+FINAL ANSWER: B"
+"STEPS: 
+1. First, identify the relevant outcomes and probabilities for both lotteries:
+   - Lottery A: 
+     - Outcome: -4000 Euros with a 20% probability 
+     - Outcome: 0 Euros with an 80% probability
+   - Lottery B: 
+     - Outcome: -3000 Euros with a 25% probability 
+     - Outcome: 0 Euros with a 75% probability
+
+2. Next, apply the decision reason, which specifies that outcomes with a probability of less than 20% receive a weight increased by 10 percentage points. In this case, we need to analyze the probabilities:
+   - Lottery A has no outcomes with probabilities less than 20%
+   - Lottery B has an outcome of -3000 Euros with a probability of 25%, which does not qualify for the weight increase since it is not less than 20%.
+
+3. Since there are no relevant probabilities under 20% in either lottery, we cannot change their probabilities. Thus, we calculate the weighted sum of outcomes:
+   - Lottery A: 
+     - Weighted sum = (-4000 * 0.20) + (0 * 0.80) = -800 Euros
+   - Lottery B: 
+     - Weighted sum = (-3000 * 0.25) + (0 * 0.75) = -750 Euros
+
+4. Finally, comparing the weighted sums:
+   - Lottery A: -800 Euros 
+   - Lottery B: -750 Euros
+
+Since -750 Euros (from Lottery B) is more favorable than -800 Euros (from Lottery A), we apply the decision reason which prefers the lottery with the more favorable sum of outcomes.
+
+FINAL ANSWER: B"
+"STEPS: 
+1. **Assess the lotteries**: 
+   - Lottery A has two outcomes: -6000 Euros with a probability of 45%, and 0 Euros with a probability of 55%.
+   - Lottery B has two outcomes: -3000 Euros with a probability of 90%, and 0 Euros with a probability of 10%.
+
+2. **Identify the relevant probabilities**: 
+   - For Lottery A: 
+     - -6000 Euros (45% probability) does not receive weight adjustment.
+     - 0 Euros (55% probability) does not receive weight adjustment.
+   - For Lottery B: 
+     - -3000 Euros (90% probability) does not receive weight adjustment.
+     - 0 Euros (10% probability) receives a weight increase because its probability is less than 20%, changing it from 10% to 20%.
+
+3. **Calculate weighted outcomes**: 
+   - For Lottery A:
+     - Weighted expected value = (-6000 Euros * 0.45) + (0 Euros * 0.55) = -2700 Euros.
+   - For Lottery B:
+     - Weighted expected value = (-3000 Euros * 0.90) + (0 Euros * 0.20) = -2700 Euros.
+
+4. **Compare the weighted expected values**:
+   - Weighted expected value for Lottery A = -2700 Euros.
+   - Weighted expected value for Lottery B = -2700 Euros.
+
+5. **Apply the decision reason**: 
+   - Since both lotteries have the same weighted expected value, which indicates that they are equally favorable to the decision reason according to its defined criteria, the decision reason prefers neither over the other.
+
+FINAL ANSWER: INDIFFERENT"
+"STEPS:
+1. **Assess if the decision reason can be applied**: The decision reason clearly specifies that it considers small probability outcomes (in this case, both lotteries have outcomes with probabilities below 20%), and it details how these probabilities should be adjusted. Lottery A has an outcome of -6000 Euros with a probability of 0.1% (adjusted to 0.1% + 0.1% = 0.2%) and 0 Euros with 99.9%. Lottery B has an outcome of -3000 Euros with a probability of 0.2% (adjusted to 0.2% + 0.1% = 0.3%) and 0 Euros with 99.8%. Thus, relevant information can be derived, and I can proceed.
+
+2. **Apply the decision reason to the decision problem**:
+   - For Lottery A:
+     - Adjusted outcome: -6000 Euros at 0.2% probability
+     - Contribution to expected value: -6000 * 0.002 = -12 Euros
+   - For Lottery B:
+     - Adjusted outcome: -3000 Euros at 0.3% probability
+     - Contribution to expected value: -3000 * 0.003 = -9 Euros
+
+Now, I compare the weighted sums:
+- Lottery A contributes -12 Euros
+- Lottery B contributes -9 Euros
+
+Since -9 is less negative than -12, Lottery B has a more favorable weighted sum.
+
+FINAL ANSWER: B"
+"STEPS: 
+1. Assessing the lotteries: 
+   - Lottery A offers 1000 Euros with a 50% probability and 0 Euros with a 50% probability. The probability of the small outcome (0 Euros) is not less than 20%, so its weight remains the same.
+   - Lottery B offers 500 Euros with a 100% probability. There are no small probability outcomes in this lottery.
+   
+2. Summarizing the relevant outcomes and adjusted probabilities:
+   - For Lottery A:
+     - Outcome of 1000 Euros: 50% probability (weighted as is)
+     - Outcome of 0 Euros: 50% probability (weighted as is)
+   - For Lottery B:
+     - Outcome of 500 Euros: 100% probability (weighted as is)
+
+3. Calculating the expected value for both lotteries:
+   - Expected value of Lottery A = (1000 Euros * 0.5) + (0 Euros * 0.5) = 500 Euros
+   - Expected value of Lottery B = 500 Euros * 1 = 500 Euros
+   
+4. Since both lotteries have the same expected value of 500 Euros, the decision reason does not prefer one lottery over the other as it doesn't explicitly favor either when expected values are equal.
+
+FINAL ANSWER: INDIFFERENT"
+"STEPS: 
+1. Assess the lotteries:
+   - Lottery A has two outcomes: -1000 Euros (50% probability) and 0 Euros (50% probability).
+   - Lottery B has one outcome: -500 Euros (100% probability).
+   
+   The relevant probabilities are:
+   - For Lottery A, both outcomes are above 20% probability, hence no adjustments are needed.
+   - For Lottery B, with its outcome at 100% probability, there are no adjustments either.
+
+2. Calculate the expected monetary value (EMV) for each lottery:
+   - For Lottery A:
+     EMV_A = (-1000 * 0.50) + (0 * 0.50) = -500 Euros.
+     
+   - For Lottery B:
+     EMV_B = -500 * 1.00 = -500 Euros.
+
+3. Since neither lottery has a probability outcome less than 20%, there are no adjustments to the probabilities of either lottery because the decision reason applies a weight only to those outcomes.
+
+4. Compare the weighted sums:
+   EMV_A = -500 Euros and EMV_B = -500 Euros. Since both EMVs are equal, the decision reason would conclude that it is indifferent between the two lotteries.
+
+FINAL ANSWER: INDIFFERENT"
+"STEPS:
+1. Assess the information about the lotteries:
+   - For Lottery A:
+     - 6000 Euros with a probability of 25%.
+     - 0 Euros with a probability of 75%. 
+     - The outcome of 0 Euros has a probability of 75%, which is greater than 20%, so no adjustment is made for this outcome.
+   - For Lottery B:
+     - 4000 Euros with a probability of 25%.
+     - 2000 Euros with a probability of 25%.
+     - 0 Euros with a probability of 50%.
+     - The 0 Euros outcome has a probability of 50%, which is greater than 20%, so no adjustment is made for this outcome.
+
+2. Summarize the relevant information:
+   - Lottery A has a weighted outcome:
+     - 6000 Euros: 0.25
+     - 0 Euros: 0.75
+     - Weighted sum for Lottery A = (6000 * 0.25) + (0 * 0.75) = 1500 Euros.
+   - Lottery B has a weighted outcome:
+     - 4000 Euros: 0.25
+     - 2000 Euros: 0.25
+     - 0 Euros: 0.50
+     - Weighted sum for Lottery B = (4000 * 0.25) + (2000 * 0.25) + (0 * 0.50) = 1000 Euros + 500 Euros + 0 = 1500 Euros.
+
+3. Apply decision reason:
+   - For Lottery A: Weighted sum = 1500 Euros.
+   - For Lottery B: Weighted sum = 1500 Euros.
+   - Both lotteries yield the same weighted sum of outcomes.
+
+FINAL ANSWER: INDIFFERENT"
+"STEPS: 
+1. Assess if the decision reason can be applied to the decision problem in a strict manner:
+   - Lottery A offers two outcomes: -6000 Euros with a 25% probability and 0 Euros with a 75% probability.
+   - Lottery B offers three outcomes: -4000 Euros with a 25% probability, -2000 Euros with a 25% probability, and 0 Euros with a 50% probability. 
+   - The decision reason states the importance of weighing outcomes with less than 20% probability and suggests increasing their weight by 10 percentage points.
+   - In both lotteries, no outcome has a probability lower than 20%, so no weights change according to the decision reason. The relevant information can be derived as both lotteries have all probabilities at or above 20%. 
+
+2. Compute the expected value for each lottery applying the original weights:
+   - For Lottery A:
+     - Expected Value (EV_A) = (-6000 * 0.25) + (0 * 0.75) = -1500 Euros
+   - For Lottery B:
+     - Expected Value (EV_B) = (-4000 * 0.25) + (-2000 * 0.25) + (0 * 0.50) = (-1000 - 500 + 0) = -1500 Euros
+   - Since both lotteries yield the same expected value of -1500 Euros and the decision reason does not favor either due to weight adjustments not applying, we find ourselves at a point of indifference.
+
+FINAL ANSWER: INDIFFERENT"
+"STEPS: 
+1. Assess the lotteries:
+   - Lottery A has a 0.1% probability of yielding 5000 Euros and a 99.9% probability of yielding 0 Euros.
+   - Lottery B offers a 100% probability of yielding 5 Euros.
+  
+2. Summarize relevant probability and outcome information:
+   - For Lottery A:
+     - The adjusted probability to consider the favorable outcome (5000 Euros) is 0.1% + 10% = 10.1%.
+     - Expected value contribution of the 5000 Euros outcome: 10.1% of 5000 Euros = 0.101 * 5000 = 505 Euros.
+     - The contribution of the 0 Euros outcome remains 0 Euros because it is multiplied by its probability (99.9% does not receive an adjustment).
+   - For Lottery B:
+     - The 5 Euros outcome has a 100% probability and does not require any adjustment since it is above 20%.
+     - Expected value for Lottery B: 100% of 5 Euros = 5 Euros.
+
+3. Apply the decision reason’s rule:
+   - Lottery A’s adjusted expected value: 505 Euros.
+   - Lottery B’s expected value: 5 Euros.
+   - The decision reason prefers the lottery that yields a more favorable sum of outcomes weighted by their probabilities, which is clearly Lottery A with 505 Euros versus Lottery B with 5 Euros.
+
+FINAL ANSWER: A"
+"STEPS:
+1. Assess the lotteries:
+   - Lottery A: 
+     - Outcome of -5000 Euros with a probability of 0.1% (0.001)
+     - Outcome of 0 Euros with a probability of 99.9% (0.999)
+   - Lottery B:
+     - Outcome of -5 Euros with a probability of 100% (1.000)
+
+2. Apply the decision reason's adjustment for small probabilities (less than 20%):
+   - For Lottery A:
+     - The outcome of -5000 Euros at a probability of 0.1% will receive a weight of (0.1% + 10%) = 10.1% = 0.101
+     - The outcome of 0 Euros at a probability of 99.9% will remain the same (0.999).
+   - For Lottery B:
+     - The outcome of -5 Euros at a probability of 100% remains the same (1.000).
+
+Now, we calculate the weighted sums for the two lotteries:
+   - Lottery A: 
+     - Weighted outcome: (-5000 Euros * 0.101) + (0 Euros * 0.999) = -505 + 0 = -505 Euros
+   - Lottery B: 
+     - Weighted outcome: (-5 Euros * 1.000) = -5 Euros
+
+3. Compare the weighted sums:
+   - Lottery A: -505 Euros
+   - Lottery B: -5 Euros
+
+Since -5 Euros is greater (less negative) than -505 Euros, according to the decision reason which prefers the more favorable sum of outcomes, Lottery B is preferred.
+
+FINAL ANSWER: B"
+"STEPS: 
+Step 1: We need to evaluate the relevant information from both lotteries to see if we can apply the decision reason in a strict manner. 
+- For Lottery A:
+  - Positive outcome: 3000 Euros with 50% probability
+  - Negative outcome: -3000 Euros with 50% probability
+  - Since both probabilities (50%) are greater than 20%, there are no adjustments needed for the probabilities based on the decision reason.
+ 
+- For Lottery B:
+  - Positive outcome: 1500 Euros with 100% probability
+  - There are no negative outcomes.
+  - The probability for this outcome (100%) is greater than 20%, so we again will not adjust here.
+
+Now, we calculate the expected outcomes for both lotteries:
+- Expected value of Lottery A: (3000 * 0.5) + (-3000 * 0.5) = 1500 - 1500 = 0 Euros
+- Expected value of Lottery B: 1500 * 1 = 1500 Euros
+
+Only the relevant information has been derived from the lotteries, and we can apply the decision reason.
+
+Step 2: According to the decision reason, we compare the weighted sums of outcomes:
+- For Lottery A, both probabilities are not below 20%, and the weighted expected value remains 0 Euros.
+- For Lottery B, again, there is no weight adjustment needed, and the expected value is 1500 Euros.
+
+Since Lottery B has a higher expected value compared to Lottery A (1500 Euros vs. 0 Euros), we can conclude that the decision reason prefers Lottery B.
+
+FINAL ANSWER: B"
+"STEPS: 
+1. Assess the relevant information: 
+   - Lottery A offers 3000 Euros with a probability of 50% and -3000 Euros with a probability of 50%. The outcomes are 3000 Euros (0.50 probability) and -3000 Euros (0.50 probability), so there are no probabilities less than 20% to adjust.
+   - Lottery B offers 2000 Euros with a probability of 100%. The outcome is 2000 Euros (1.00 probability), again not relevant for the 20% adjustment.
+
+2. Apply the decision reason: 
+   - Since all probabilities in both lotteries are either 50% or 100%, none of the probabilities trigger the adjustment of adding 10 percentage points because there are no probabilities under 20%. 
+   - Calculate the expected sum of outcomes:
+     - For Lottery A: Expected Value = (3000 * 0.50) + (-3000 * 0.50) = 1500 - 1500 = 0.
+     - For Lottery B: Expected Value = 2000 * 1.00 = 2000.
+   - Comparing the expected values: Lottery A yields an expected value of 0, while Lottery B yields an expected value of 2000. 
+
+FINAL ANSWER: B"
+"STEPS: 
+1. Assess the relevant information:
+   - Lottery A has two outcomes: 
+     - 3000 Euros with 50% probability
+     - -3000 Euros with 50% probability
+   - Lottery B has one outcome: 
+     - 1000 Euros with 100% probability
+   - The decision reason considers small probability outcomes, but no outcome in either lottery falls below the 20% threshold. Thus, weights based on the rules provided do not apply.
+
+2. Calculate the expected value for both lotteries:
+   - Lottery A: 
+     - Expected Value = (3000 * 0.5) + (-3000 * 0.5) = 1500 - 1500 = 0
+   - Lottery B: 
+     - Expected Value = 1000 * 1 = 1000
+
+3. Compare the weighted sums of outcomes:
+   - Because there are no outcomes with a probability of less than 20% in either lottery, the decision reason cannot differentiate effectively between the two lotteries using the small-probability rule provided. Since the decision reason's main rule cannot be applied due to the absence of applicable outcomes, we conclude that it cannot make a preferred choice.
+
+FINAL ANSWER: INDIFFERENT"
+"STEPS: 
+1. Assess the relevant information for the lotteries based on the decision reason. 
+   - Lottery A has outcomes of 6000 Euros (50% probability) and -6000 Euros (50% probability).
+   - Lottery B has an outcome of 0 Euros (100% probability). 
+   - The decision reason takes into account that neither lottery has outcomes with a probability less than 20%, thus we won't apply the increase in weight. 
+
+2. Calculate the expected value of each lottery without adjustments since no probabilities fall below 20%.
+   - Expected value of Lottery A = (6000 * 0.5) + (-6000 * 0.5) = 3000 - 3000 = 0 Euros.
+   - Expected value of Lottery B = (0 * 1.0) = 0 Euros.
+
+3. Compare the expected values.
+   - Expected value of A = 0 Euros.
+   - Expected value of B = 0 Euros.
+
+4. Since both expected values are equal, according to the decision reason, we conclude that it is indifferent between both lotteries.
+
+FINAL ANSWER: INDIFFERENT"

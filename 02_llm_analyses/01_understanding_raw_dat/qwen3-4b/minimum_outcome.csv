@@ -1,0 +1,101 @@
+problem_index,response
+0,"{
+  ""step_1"": ""The decision reason focuses on the minimum outcome of each lottery. For Lottery A, the outcomes are 2500 Euros (33%), 2400 Euros (66%), and 0 Euros (1%). The minimum outcome in Lottery A is 0 Euros. For Lottery B, the outcome is 2400 Euros with 100% probability, so the minimum outcome is 2400 Euros. The relevant information is thus: Lottery A has a minimum outcome of 0 Euros, and Lottery B has a minimum outcome of 2400 Euros. The decision reason can be strictly applied as the minimum outcomes are clearly defined and comparable."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable minimum outcome. Since 2400 Euros is greater than 0 Euros, Lottery B has a more favorable minimum outcome. Therefore, the decision reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+1,"{
+  ""step_1"": ""The decision reason focuses on the minimum outcome of each lottery. In both lotteries, the minimum outcome is 0 Euros. Since both lotteries offer 0 Euros with high probability (67% for A, 66% for B), the minimum outcome is the same in both cases. Therefore, the relevant information for the decision reason is that both lotteries have the same minimum outcome of 0 Euros."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable minimum outcome. Since both lotteries have the same minimum outcome (0 Euros), there is no difference in favor of one lottery over the other. Thus, the decision reason is indifferent between the two lotteries."",
+  ""final_answer"": ""INDIFFERENT""
+}"
+2,"{
+  ""step_1"": ""The decision reason focuses on the minimum outcome of each lottery. For Lottery A, the minimum outcome is 0 Euros (with 20% probability). For Lottery B, the minimum outcome is 3000 Euros (with 100% probability). Since the minimum outcome of Lottery B (3000 Euros) is greater than that of Lottery A (0 Euros), the relevant information can be derived and the decision reason can be applied strictly."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable minimum outcome. Since 3000 Euros is greater than 0 Euros, Lottery B has the more favorable minimum outcome and is preferred by the decision reason."",
+  ""final_answer"": ""B""
+}"
+3,"{
+  ""step_1"": ""The decision reason focuses on the minimum outcome of each lottery. In Lottery A, the minimum outcome is 0 Euros with 80% probability. In Lottery B, the minimum outcome is also 0 Euros with 75% probability. Both lotteries have the same minimum outcome of 0 Euros. Therefore, the relevant information can be derived and the decision reason can be applied strictly."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable minimum outcome. Since both lotteries have the same minimum outcome (0 Euros), neither lottery has a more favorable minimum outcome than the other. Thus, the decision reason is indifferent between the lotteries."",
+  ""final_answer"": ""INDIFFERENT""
+}"
+4,"{
+  ""step_1"": ""The decision reason focuses on the minimum outcome of each lottery. For Lottery A, the minimum outcome is 0 Euros (with 55% probability). For Lottery B, the minimum outcome is also 0 Euros (with 10% probability). Both lotteries have the same minimum outcome of 0 Euros. Therefore, the relevant information is fully derivable and the reason can be applied strictly."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable minimum outcome. Since both lotteries have the same minimum outcome of 0 Euros, there is no difference in the minimum outcome between A and B. Thus, the decision reason is indifferent between the two lotteries."",
+  ""final_answer"": ""INDIFFERENT""
+}"
+5,"{
+  ""step_1"": ""The decision reason focuses on the minimum outcome of each lottery. In both lotteries, the minimum outcome is 0 Euros for both A and B. Since both lotteries offer 0 Euros as the minimum outcome, and there is no difference in the minimum outcome between them, the relevant information can be derived and compared strictly."",
+  ""step_2"": ""The minimum outcome for Lottery A is 0 Euros, and for Lottery B is also 0 Euros. Since both lotteries have the same minimum outcome, the decision reason is indifferent between them."",
+  ""final_answer"": ""INDIFFERENT""
+}"
+6,"{
+  ""step_1"": ""The decision reason focuses on the minimum outcome of each lottery. For Lottery A, the minimum outcome is -4000 Euros (with 80% probability). For Lottery B, the minimum outcome is -3000 Euros (with 100% probability). Since the reason evaluates the minimum outcome and prefers the one with the more favorable (less negative) minimum, we compare -4000 and -3000. -3000 is greater than -4000, so it is more favorable."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable minimum outcome. Since -3000 > -4000, Lottery B has the more favorable minimum outcome."",
+  ""final_answer"": ""B""
+}"
+7,"{
+  ""step_1"": ""The decision reason evaluates the minimum outcome of each lottery. For Lottery A, the minimum outcome is -4000 Euros (with 20% probability). For Lottery B, the minimum outcome is -3000 Euros (with 25% probability). The minimum outcome is the worst-case scenario in each lottery. The reason compares these minimum outcomes and prefers the one with the more favorable (less negative) minimum outcome. Since -3000 Euros is greater than -4000 Euros, the minimum outcome of Lottery B is more favorable."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable minimum outcome. Since -3000 > -4000, Lottery B has the more favorable minimum outcome."",
+  ""final_answer"": ""B""
+}"
+8,"{
+  ""step_1"": ""The decision reason focuses on the minimum outcome of each lottery. For Lottery A, the minimum outcome is -6000 Euros (with 45% probability). For Lottery B, the minimum outcome is -3000 Euros (with 90% probability). Both lotteries have negative outcomes, but the minimum outcome in Lottery B (-3000 Euros) is greater (less negative) than the minimum outcome in Lottery A (-6000 Euros). The relevant information about the minimum outcomes is clearly derivable from the lotteries' structure."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable (i.e., higher) minimum outcome. Since -3000 Euros is greater than -6000 Euros, Lottery B has the more favorable minimum outcome. Therefore, the decision reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+9,"{
+  ""step_1"": ""The decision reason focuses on the minimum outcome of each lottery. In both lotteries, the minimum outcome is the negative amount (i.e., the loss) that occurs with a certain probability. For Lottery A, the minimum outcome is -6000 Euros. For Lottery B, the minimum outcome is -3000 Euros. Since -3000 Euros is greater than -6000 Euros (i.e., less severe), it is the more favorable minimum outcome. The relevant information is derived clearly from the lotteries' outcomes and probabilities, so the decision reason can be applied strictly."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable minimum outcome. Since -3000 Euros (Lottery B) is more favorable than -6000 Euros (Lottery A), the reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+10,"{
+  ""step_1"": ""The decision reason focuses on the minimum outcome of each lottery. For Lottery A, the minimum outcome is 0 Euros (with 50% probability). For Lottery B, the minimum outcome is 500 Euros (with 100% probability). The information about minimum outcomes is clearly derivable from the lotteries' structure. Thus, the decision reason can be applied strictly."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable minimum outcome. Comparing the minimum outcomes: Lottery A has a minimum of 0 Euros, while Lottery B has a minimum of 500 Euros. Since 500 Euros is greater than 0 Euros, Lottery B has the more favorable minimum outcome. Therefore, the decision reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+11,"{
+  ""step_1"": ""The decision reason focuses on the minimum outcome of each lottery. For Lottery A, the minimum outcome is -1000 Euros (with 50% probability). For Lottery B, the minimum outcome is -500 Euros (with 100% probability). Both outcomes are negative, but the reason evaluates which minimum outcome is more favorable. A more favorable minimum outcome means a less negative (i.e., higher) value. Since -500 Euros is greater than -1000 Euros, the minimum outcome of Lottery B is more favorable."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable minimum outcome. Since -500 Euros (Lottery B) is more favorable than -1000 Euros (Lottery A), the reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+12,"{
+  ""step_1"": ""The decision reason evaluates the minimum outcome of each lottery. For Lottery A, the outcomes are 6000 Euros with 25% probability and 0 Euros with 75% probability, so the minimum outcome is 0 Euros. For Lottery B, the outcomes are 4000 Euros with 25% probability, 2000 Euros with 25% probability, and 0 Euros with 50% probability, so the minimum outcome is also 0 Euros. Since both lotteries have the same minimum outcome of 0 Euros, the decision reason cannot strictly prefer one over the other based on this criterion."",
+  ""step_2"": ""The decision reason compares the minimum outcomes of the lotteries. Both Lottery A and Lottery B have a minimum outcome of 0 Euros. Therefore, the decision reason is indifferent between the two lotteries."",
+  ""final_answer"": ""INDIFFERENT""
+}"
+13,"{
+  ""step_1"": ""The decision reason focuses on the minimum outcome of each lottery. For Lottery A, the outcomes are -6000 Euros with 25% probability and 0 Euros with 75% probability. The minimum outcome is -6000 Euros. For Lottery B, the outcomes are -4000 Euros, -2000 Euros, and 0 Euros, each with specified probabilities. The minimum outcome is -4000 Euros. Since the relevant information (minimum outcomes) can be clearly derived from the lotteries, the decision reason can be applied strictly."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable (i.e., less negative) minimum outcome. The minimum outcome of Lottery A is -6000 Euros, and the minimum outcome of Lottery B is -4000 Euros. Since -4000 > -6000, Lottery B has a more favorable minimum outcome. Therefore, the decision reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+14,"{
+  ""step_1"": ""The decision reason focuses on the minimum outcome of each lottery. For Lottery A, the minimum outcome is 0 Euros (with 99.9% probability). For Lottery B, the minimum outcome is 5 Euros (with 100% probability). The relevant information is clearly derivable from the lotteries' outcomes and probabilities. Thus, the decision reason can be applied strictly."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable minimum outcome. Comparing the minimum outcomes: Lottery A has a minimum of 0 Euros, while Lottery B has a minimum of 5 Euros. Since 5 Euros is greater than 0 Euros, Lottery B has the more favorable minimum outcome. Therefore, the decision reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+15,"{
+  ""step_1"": ""The decision reason focuses on the minimum outcome of each lottery. For Lottery A, the minimum outcome is -5000 Euros, which occurs with 0.1% probability. For Lottery B, the minimum outcome is -5 Euros, which occurs with 100% probability. Since the minimum outcome is the worst-case scenario, the reason compares these two worst-case outcomes directly. The minimum outcome of Lottery B (-5 Euros) is more favorable than that of Lottery A (-5000 Euros), as -5 > -5000."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable minimum outcome. Since -5 Euros is greater than -5000 Euros, Lottery B has the more favorable minimum outcome. Therefore, the reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+16,"{
+  ""step_1"": ""The decision reason focuses on the minimum outcome of each lottery. For Lottery A, the outcomes are 3000 Euros with 50% probability and -3000 Euros with 50% probability, so the minimum outcome is -3000 Euros. For Lottery B, the outcome is 1500 Euros with 100% probability, so the minimum outcome is 1500 Euros. The relevant information is thus clear and derivable from the lotteries' structure."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable (i.e., higher) minimum outcome. Comparing the minimum outcomes: -3000 Euros (Lottery A) is less favorable than 1500 Euros (Lottery B). Therefore, the reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+17,"{
+  ""step_1"": ""The decision reason focuses on the minimum outcome of each lottery. For Lottery A, the outcomes are 3000 Euros with 50% probability and -3000 Euros with 50% probability, so the minimum outcome is -3000 Euros. For Lottery B, the outcome is 2000 Euros with 100% probability, so the minimum outcome is 2000 Euros. The relevant information is thus clear and derivable from the lotteries' structure."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable (i.e., higher) minimum outcome. Comparing the minimum outcomes: -3000 Euros (Lottery A) is less favorable than 2000 Euros (Lottery B). Therefore, the reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+18,"{
+  ""step_1"": ""The decision reason focuses on the minimum outcome of each lottery. For Lottery A, the outcomes are 3000 Euros with 50% probability and -3000 Euros with 50% probability, so the minimum outcome is -3000 Euros. For Lottery B, the outcome is 1000 Euros with 100% probability, so the minimum outcome is 1000 Euros. The relevant information is clearly derivable from the lotteries' structure."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable (i.e., higher) minimum outcome. Comparing the minimum outcomes: -3000 Euros (Lottery A) is less favorable than 1000 Euros (Lottery B). Therefore, the reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"
+19,"{
+  ""step_1"": ""The decision reason focuses on the minimum outcome of each lottery. For Lottery A, the outcomes are 6000 Euros with 50% probability and -6000 Euros with 50% probability, so the minimum outcome is -6000 Euros. For Lottery B, the outcome is 0 Euros with 100% probability, so the minimum outcome is 0 Euros. The relevant information is thus clear and derivable: the minimum outcome of A is -6000, and the minimum outcome of B is 0. Since 0 is greater than -6000, the minimum outcome of B is more favorable."",
+  ""step_2"": ""The decision reason prefers the lottery with the more favorable minimum outcome. Since 0 > -6000, the minimum outcome of Lottery B is more favorable than that of Lottery A. Therefore, the decision reason prefers Lottery B."",
+  ""final_answer"": ""B""
+}"

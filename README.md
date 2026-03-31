@@ -10,6 +10,7 @@ Kamil Fulawka¹², Ralph Hertwig², and Dirk U. Wulff²³
 ---
 
 ## Abstract
+
 Understanding the reasons behind human choices under risk is a central goal of decision scientists, but traditional methods relying on behavioral data are limited by strict invariance assumptions. We introduce a scalable analytical framework using large language models (LLMs) to analyze verbal reports and identify articulated reasons for choice between monetary lotteries. A validated LLM accurately identified predefined decision reasons in participants' free-text reports, aligning with their actual choices in 95\% of trials. Our analysis reveals that the reasons behind people's decisions vary systematically and are driven more by the structure of the choice problem than by individual differences. Crucially, reasons identified from verbal reports yield more parsimonious and informative representations of decision processes compared to those inferred from choices alone; furthermore, problem-specific reason profiles achieve out-of-sample prediction accuracy that is competitive with established computational models. This work demonstrates that verbal reports are a rich data source and our analytical framework can unlock their potential, delivering results that challenge the field's foundational invariance assumptions and pave the way for more context-sensitive and interpretable models of human decision making.
 ---
 

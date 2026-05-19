@@ -102,7 +102,7 @@ def save_results(subject_meta, responses, output_folder):
 
     # Group by reason name to create specific files
     unique_reasons = subject_meta["reason_name"].unique()
-    print(f"💾 Saving results for {len(unique_reasons)} reasons into {output_folder}...")
+    print(f"Saving results for {len(unique_reasons)} reasons into {output_folder}...")
 
     for reason_name, group_df in subject_meta.groupby("reason_name"):
         filename = reason_name.strip().replace(" ", "_").lower() + ".csv"
@@ -149,8 +149,8 @@ if __name__ == "__main__":
 
     output_res_path = os.path.join(base_res_path, folder_name)
     
-    print(f"🚀 Initializing vLLM for model: {args.model}")
-    print(f"📂 Results will be saved to: {output_res_path}")
+    print(f"Initializing vLLM for model: {args.model}")
+    print(f"Results will be saved to: {output_res_path}")
 
     # 2. Initialize vLLM
     llm_kwargs = dict(
@@ -166,18 +166,18 @@ if __name__ == "__main__":
 
     llm = LLM(**llm_kwargs)
     tokenizer = AutoTokenizer.from_pretrained(args.model)
-    print("✅ Engine initialized.")
+    print("Engine initialized.")
 
     # 3. Load Data
-    print("📂 Loading datasets...")
+    print("Loading datasets...")
     df_reasons = pd.read_csv(decision_reasons_file, sep=';')
     df_problems = pd.read_csv(decision_problems_file, sep=',')
     
-    print(f"📊 Found {len(df_reasons)} reasons and {len(df_problems)} problems.")
+    print(f"Found {len(df_reasons)} reasons and {len(df_problems)} problems.")
     
     # 4. Prepare Prompts
     prompts, meta_df = prepare_all_prompts(df_reasons, df_problems, tokenizer)
-    print(f"∑ Total prompts generated: {len(prompts)}")
+    print(f"Total prompts generated: {len(prompts)}")
 
     # 5. Sampling Parameters
     sampling_params = SamplingParams(
@@ -190,7 +190,7 @@ if __name__ == "__main__":
 
     # 6. Run Inference
     start_time = time.time()
-    print("▶️ Starting generation...")
+    print("Starting generation...")
     
     outputs = llm.generate(prompts, sampling_params)
     
@@ -198,9 +198,9 @@ if __name__ == "__main__":
     generated_texts = [output.outputs[0].text.strip() for output in outputs]
     
     duration = time.time() - start_time
-    print(f"✅ Generation finished in {duration:.1f}s")
+    print(f"Generation finished in {duration:.1f}s")
 
     # 7. Save Results
     save_results(meta_df, generated_texts, output_res_path)
     
-    print(f"🎉 Done. Results in {output_res_path}")
+    print(f"Done. Results in {output_res_path}")

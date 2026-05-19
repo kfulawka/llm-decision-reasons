@@ -146,7 +146,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # 1. Initialize vLLM (ONCE)
-    print(f"🚀 Initializing vLLM (TP={args.tp_size})...")
+    print(f"Initializing vLLM (TP={args.tp_size})...")
     
     llm_kwargs = dict(
         model=MODEL_NAME,
@@ -160,12 +160,12 @@ if __name__ == "__main__":
     )
 
     llm = LLM(**llm_kwargs)
-    print("✅ Engine initialized.")
+    print("Engine initialized.")
     
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 
     # 2. Load Global Data (ONCE)
-    print("📂 Loading datasets...")
+    print("Loading datasets...")
     df_reasons = pd.read_csv(decision_reasons_file, sep=';')
     df_problems = pd.read_csv(decision_problems_file)
     df_verbal = pd.read_csv(verbal_reports_file)
@@ -179,7 +179,7 @@ if __name__ == "__main__":
     
     # Get unique subjects list
     all_subjects = sorted(df_all["subject_id"].unique())
-    print(f"📊 Found {len(all_subjects)} subjects to process.")
+    print(f"Found {len(all_subjects)} subjects to process.")
 
     # 3. Sampling Parameters (Qwen Recommended)
     sampling_params = SamplingParams(
@@ -199,17 +199,17 @@ if __name__ == "__main__":
         
         # Check completeness (assuming 47 reasons = 47 files)
         if os.path.exists(subject_folder) and len(os.listdir(subject_folder)) >= 47:
-            print(f"⏩ Subject {subject_id} already done. Skipping.")
+            print(f"Subject {subject_id} already done. Skipping.")
             continue
             
-        print(f"\n▶️ Starting Subject {subject_id:02d}...")
+        print(f"\nStarting Subject {subject_id:02d}...")
         t0 = time.time()
 
         # Prepare Batch
         prompts, subject_meta = prepare_batch_for_subject(subject_id, df_all, df_reasons, tokenizer)
         
         if not prompts:
-            print(f"⚠️ No prompts generated for Subject {subject_id}. Check data.")
+            print(f"No prompts generated for Subject {subject_id}. Check data.")
             continue
 
         # Run Inference
@@ -222,6 +222,6 @@ if __name__ == "__main__":
         # Save
         save_results(subject_meta, generated_texts, subject_folder)
         
-        print(f"✅ Subject {subject_id} finished in {time.time() - t0:.1f}s")
+        print(f"Subject {subject_id} finished in {time.time() - t0:.1f}s")
 
-    print(f"\n🎉 All subjects completed in {time.time() - start_total:.1f}s")
+    print(f"\n All subjects completed in {time.time() - start_total:.1f}s")

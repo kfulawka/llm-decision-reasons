@@ -51,7 +51,7 @@ oos_embd_results = future_sapply(1:n_reps, function(r) {
     foldid = foldid,
     family = "binomial",
     type.measure = "class"
-    )
+  )
   
   # accuracy
   acc <- 1 - min(cv_fit$cvm)
@@ -64,5 +64,5 @@ oos_embd_results = future_sapply(1:n_reps, function(r) {
 #
 plan('sequential')
 
+round(mean(oos_embd_results), 4); sd(oos_embd_results)
 hist(oos_embd_results, breaks = 'scott')
-mean(oos_embd_results); sd(oos_embd_results)

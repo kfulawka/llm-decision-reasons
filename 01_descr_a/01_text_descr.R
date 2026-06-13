@@ -1,6 +1,6 @@
 rm(list = ls())
 
-library(ggplot2)
+library(stringr)
 
 # clean data --------------------------------------------------------------
 
@@ -10,11 +10,11 @@ xp = read.csv('00_data/csv_dat/input.csv'); colnames(xp)[1] = 'problemID'
 
 d_text = merge(d_text, xp[,c('problemID', 'domain', 'type')])
 
-# no of spaces
-d_text$space_no = sapply(d_text$response, function(x) length(gregexpr(" ", x)[[1]]) )
+# no of words
+d_text$word_no <- str_count(str_squish(d_text$response), "\\S+")
 
 # no of characters
 d_text$char_no = nchar(d_text$response)
 
-summary(d_text$space_no-1); quantile(d_text$space_no-1, c(.1, .2))
+summary(d_text$word_no); quantile(d_text$word_no, c(.1, .2))
 summary(d_text$char_no); quantile(d_text$char_no, c(.1, .2))
